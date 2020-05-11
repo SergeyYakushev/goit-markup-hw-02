@@ -169,7 +169,7 @@ body {
 }
 /* Batton */
 
-.batton {
+.button {
   color: var(--secondary-color-text);
   background-color: var(--accent-color);
 
@@ -181,7 +181,7 @@ body {
 }
 
 /* POPRTFOLIO HTML */
-.nav-batton .technology {
+.nav-button .technology {
   color: var(--title-text-color);
   background-color: #f5f4fa;
 
@@ -190,8 +190,8 @@ body {
   line-height: 1.63;
   /* identical to box height, or 162% */
 }
-.nav-batton .technology:hover,
-.nav-batton .technology:focus {
+.nav-button .technology:hover,
+.nav-button .technology:focus {
   color: var(--secondary-color-text);
   background-color: var(--accent-color);
 }
