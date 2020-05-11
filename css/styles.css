@@ -1,0 +1,107 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #000000;
+  --accent-color: #2196f3;
+  --secondary-color-text: #ffffff; /* изменить после появления фона на белый */
+}
+/*  */
+body {
+  background-color: #e5e5e5;
+  color: var(--primary-text-color);
+}
+
+/* ul  */
+.list {
+  list-style: none;
+}
+
+/* logo */
+.logo {
+  color: var(--title-text-color);
+}
+.logo-part {
+  color: var(--accent-color);
+}
+/* site nav */
+/* current page */
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+.site-nav .link {
+  color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/* contacts */
+.contacts .contacts-link {
+  color: var(--primary-text-color);
+}
+
+.contacts .contacts-link:hover,
+.contacts .contacts-link:focus {
+  color: var(--accent-color);
+}
+/* Hero*/
+.hero-title {
+  color: var(--secondary-color-text);
+}
+/* Section */
+.section-title {
+  color: var(--title-text-color);
+}
+
+/* Features */
+
+.features-list .title {
+  color: var(--title-text-color);
+}
+.features-list .text {
+  color: var(--primary-text-color);
+}
+.section .product-examples {
+  color: var(--secondary-color-text);
+}
+
+/* Co-worker+job title */
+.section .worker {
+  color: var(--title-text-color);
+}
+.section .position {
+}
+.addres .addres-text {
+  color: var(--secondary-color-text);
+}
+.contacts .post {
+  color: var(--title-text-color);
+}
+
+.addding-text,
+.discrirtion-text {
+  color: var(--secondary-color-text);
+}
+
+.copiright {
+  color: var(--primary-text-color);
+}
+/* Batton */
+
+.batton {
+  color: var(--secondary-color-text);
+  background-color: var(--accent-color);
+}
+
+/* POPRTFOLIO HTML */
+.nav-batton .technology {
+  color: #212121;
+  background-color: #f5f4fa;
+}
+.nav-batton .technology:hover,
+.nav-batton .technology:focus {
+  color: var(--secondary-color-text);
+  background-color: var(--accent-color);
+}
